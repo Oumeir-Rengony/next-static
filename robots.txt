@@ -1,0 +1,24 @@
+User-agent: *
+Sitemap:  https://www.pampers.com/en-us/sitemap.xml
+
+Disallow: /sitecore/
+Disallow: /sitecore modules/
+Disallow: /sitecore_files/
+Disallow: /temp/
+Disallow: /upload/
+Disallow: /*reset-password
+Disallow: /*compartir
+Disallow: /*search
+Disallow: /*buscar
+Disallow: /*recompensas-terminoscondiciones
+Disallow: /*review-terms-andconditions
+Disallow: /*acuerdo-del-usuario
+Disallow: /*selected-offers
+Disallow: /*selected-rewards
+Disallow: /*error-404-page
+Disallow: /*error-pagina-404
+Disallow: /*cashback-value-page
+Disallow: /*cashback-value-terms-conditions-page
+Noindex: /cashback-value-page
+Noindex: /cashback-value-terms-conditions-page
+Disallow: /content-repository/

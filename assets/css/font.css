@@ -1,0 +1,122 @@
+:root {
+  --font-primary: 'Harmonia Sans Std Regular';
+  --font-pampers-semi-bold: 'Harmonia Semi-Bold';
+  --font-primary-pro: 'Harmonia Sans Pro Regular';
+  --font-secondary: 'Lato Regular';
+  --font-pampers: 'Pampers Script';
+  /* --font-pampers: 'Pampers Script'; */
+  --font-pure: 'Memimas Pro Bold';
+  --zoom: 0px;
+}
+
+.accessible-variant {
+  --font-pampers: 'Pampers Text Bold';
+  --font-pampers-semi-bold: 'Harmonia Semi-Bold';
+}
+
+@font-face {
+  font-family: 'Pampers Script';
+  src: url(/assets/fonts/pampers-script.otf) format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Pro Regular';
+  src: url(/assets/fonts/harmonia-sans-pro-regular.otf) format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Std Regular';
+  src: url(/assets/fonts/harmonia-sans-std-regular.otf) format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Semi-Bold';
+  font-weight: normal;
+  src: url(/assets/fonts/harmonia-sans-std-semi-bold.otf) format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Harmonia Sans Std Regular';
+  font-weight: 700;
+  src: url(/assets/fonts/harmonia-sans-std-bold.otf) format('opentype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  src: url(/assets/fonts/lato-regular.ttf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-weight: 700;
+  src: url(/assets/fonts/lato-bold.ttf) format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/assets/fonts/lato-italic.ttf) format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: italic;
+  font-weight: 400;
+  src: url(/assets/fonts/lato-italic.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/assets/fonts/lato-bold.ttf) format('truetype');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Lato Regular';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(/assets/fonts/lato-bold.ttf) format('truetype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Memimas Pro Bold';
+  src: url(/assets/fonts/memimas-pro-bold.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pampers Text Bold';
+  font-weight: bold;
+  src: url(/assets/fonts/pampers-text-bold/pampers-text-bold.otf) format('opentype');
+  font-display: swap;
+}
+
+body {
+  font-family: var(--font-primary), Arial, Helvetica, sans-serif;
+}
+.font-primary {
+  font-family: var(--font-primary), Arial, sans-serif;
+}
+.font-primary-pro {
+  font-family: var(--font-primary-pro), Arial, sans-serif;
+}
+.font-secondary {
+  font-family: var(--font-secondary), Arial, sans-serif;
+}
+.font-pampers {
+  font-family: var(--font-pampers), Arial, sans-serif;
+}
+.font-pampers-sb {
+  font-family: var(--font-pampers-semi-bold), Arial, sans-serif;
+}
+.font-pure {
+  font-family: var(--font-pure), Arial, sans-serif;
+}
